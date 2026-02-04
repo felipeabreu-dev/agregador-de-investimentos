@@ -1,3 +1,12 @@
 spring:
   application:
     name: agregador-de-investimentos
+  datasource:
+    url: jdbc:mysql://localhost:3306/adiDB
+    username: admin
+    password: 123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
